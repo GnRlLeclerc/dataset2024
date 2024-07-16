@@ -29,6 +29,7 @@ This repository contains:
 
 ## News
 
+- 16.7.2024: Release of test dataset
 - 22.4.2024: Release of dataset v1.0
 - 25.3.2024: Release of preliminary evaluation script and GPT-baseline
 
@@ -327,10 +328,10 @@ with open(fp, "w") as f:
 
 Links to the CodaLab competition leaderboard:
 - Validation leaderboard: [LM-KBC @ ISWC 2024 (validation)](https://codalab.lisn.upsaclay.fr/competitions/19137)
-- Test leaderboard: will be released with the test dataset
+- Test leaderboard: [LM-KBC @ ISWC 2024](https://codalab.lisn.upsaclay.fr/competitions/19136)
 
 To participate in the competition and join the leaderboard, sign up for your team account at [CodaLab](https://codalab.lisn.upsaclay.fr).
 Then register for the competition and submit your predictions at Participate -> Submit / View Results.
 
-We have also uploaded the baseline results:
+We have also uploaded the baseline results (validation):
 ![codalab-baseline](assets/codalab-baselines.png)
