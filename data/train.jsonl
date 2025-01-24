@@ -207,7 +207,7 @@
 {"SubjectEntityID": "Q714141", "SubjectEntity": "Lasse \u00c5berg", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q5619463", "SubjectEntity": "Gunther Kress", "ObjectEntitiesID": ["Q220"], "ObjectEntities": ["Rome"], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q2538", "SubjectEntity": "Joachim Gauck", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
-{"SubjectEntityID": "Q1008502", "SubjectEntity": "Josep Maria Benet i Jornet", "ObjectEntitiesID": ["Q15090"], "ObjectEntities": ["Lleida"], "Relation": "personHasCityOfDeath"}
+{"SubjectEntityID": "Q1008502", "SubjectEntity": "Josep Maria Benet i Jornet", "ObjectEntitiesID": ["Q23995898"], "ObjectEntities": ["Lleida"], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q3026030", "SubjectEntity": "Michael Rose", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q2074674", "SubjectEntity": "Peter Eisenberg", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q227390", "SubjectEntity": "Zsuzsa Vathy", "ObjectEntitiesID": ["Q1781"], "ObjectEntities": ["Budapest"], "Relation": "personHasCityOfDeath"}
@@ -223,7 +223,6 @@
 {"SubjectEntityID": "Q353690", "SubjectEntity": "Adel Emam", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q1498204", "SubjectEntity": "Herbert Joos", "ObjectEntitiesID": ["Q4100"], "ObjectEntities": ["Baden-Baden"], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q440237", "SubjectEntity": "Stan Mikita", "ObjectEntitiesID": ["Q1297"], "ObjectEntities": ["Chicago"], "Relation": "personHasCityOfDeath"}
-{"SubjectEntityID": "Q173147", "SubjectEntity": "Mike Hailwood", "ObjectEntitiesID": ["Q23140"], "ObjectEntities": ["Warwickshire"], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q12114364", "SubjectEntity": "Antoni Krauze", "ObjectEntitiesID": ["Q270"], "ObjectEntities": ["Warsaw"], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q5543616", "SubjectEntity": "George R. Christmas", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
 {"SubjectEntityID": "Q1782281", "SubjectEntity": "Konrad Rufus M\u00fcller", "ObjectEntitiesID": [], "ObjectEntities": [], "Relation": "personHasCityOfDeath"}
