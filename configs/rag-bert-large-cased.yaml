@@ -1,4 +1,4 @@
-model: "rag_fill_mask"
+model: "rag_fancy_fill_mask"
 
 # LLM
 llm_path: "bert-large-cased"

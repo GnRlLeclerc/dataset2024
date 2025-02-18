@@ -1,4 +1,4 @@
-model: "rag_llama_3_chat"
+model: "rag_fancy_llama_3_chat"
 
 # LLM
 llm_path: "meta-llama/Meta-Llama-3-8B-Instruct"

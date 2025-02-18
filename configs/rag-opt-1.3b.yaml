@@ -1,4 +1,4 @@
-model: "rag_generation"
+model: "rag_fancy_generation"
 
 # LLM
 llm_path: "facebook/opt-1.3b"

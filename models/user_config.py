@@ -6,6 +6,9 @@ from models.baseline_llama_3_chat_model import Llama3ChatModel
 from models.rag_fill_mask_model import FillMaskModelRAG
 from models.rag_generation_model import GenerationModelRAG
 from models.rag_llama_3_chat_model import Llama3ChatModelRAG
+from models._rag_fancy_fill_mask_model import FillMaskModelRAGfancy
+from models._rag_fancy_generation_model import GenerationModelRAGfancy
+from models._rag_fancy_llama_3_chat_model import Llama3ChatModelRAGfancy
 
 
 class Models(Enum):
@@ -15,6 +18,9 @@ class Models(Enum):
     RAG_FILL_MASK = "rag_fill_mask"
     RAG_GENERATION = "rag_generation"
     RAG_LLAMA_3_CHAT = "rag_llama_3_chat"
+    RAG_FANCY_FILL_MASK = "rag_fancy_fill_mask"
+    RAG_FANCY_GENERATION = "rag_fancy_generation"
+    RAG_FANCY_LLAMA_3_CHAT = "rag_fancy_llama_3_chat"
 
 
     # Add more models here
@@ -34,6 +40,12 @@ class Models(Enum):
             return GenerationModelRAG
         elif model==Models.RAG_LLAMA_3_CHAT:
             return Llama3ChatModelRAG
+        elif model==Models.RAG_FANCY_FILL_MASK:
+            return FillMaskModelRAGfancy
+        elif model==Models.RAG_FANCY_GENERATION:
+            return GenerationModelRAGfancy
+        elif model==Models.RAG_FANCY_LLAMA_3_CHAT:
+            return Llama3ChatModelRAGfancy
     
         else:
             raise ValueError(f"Model `{model_name}` not found.")
