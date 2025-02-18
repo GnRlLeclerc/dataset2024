@@ -1,7 +1,7 @@
 model: "rag_fancy_llama_3_chat_finetuned"
 
 # LLM
-llm_path: "meta-llama/Meta-Llama-3-8B-Instruct"
+llm_path: "meta-llama/Llama-3.2-1B"
 
 # Prompt templates
 prompt_templates_file: "prompt_templates/question_prompts.csv"

@@ -27,7 +27,8 @@ class Llama3ChatModelRAGFancyFinetuned(GenerationModel):
     def __init__(self, config):
         assert config["llm_path"] in [
             "meta-llama/Meta-Llama-3-8B-Instruct",
-            "meta-llama/Meta-Llama-3-70B-Instruct"
+            "meta-llama/Meta-Llama-3-70B-Instruct",
+            "meta-llama/Llama-3.2-1B"
         ], (
             "The Llama3ChatModelRAGFancyFinetuned class only supports the Meta-Llama-3-8B-Instruct"
             " and Meta-Llama-3-70B-Instruct models."
