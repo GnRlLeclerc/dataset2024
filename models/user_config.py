@@ -11,6 +11,7 @@ from models._rag_fancy_generation_model import GenerationModelRAGfancy
 from models._rag_fancy_llama_3_chat_model import Llama3ChatModelRAGfancy
 
 from models.finetune_rag_fancy_llama_3_chat_model import Llama3ChatModelRAGFancyFinetuned
+from models.finetune_rag_fancy_generation_model import GenerationModelRAGfancyFinetuned
 
 
 class Models(Enum):
@@ -24,6 +25,8 @@ class Models(Enum):
     RAG_FANCY_GENERATION = "rag_fancy_generation"
     RAG_FANCY_LLAMA_3_CHAT = "rag_fancy_llama_3_chat"
     RAG_FANCY_LLAMA_3_CHAT_FINETUNED = "rag_fancy_llama_3_chat_finetuned"
+    RAG_FANCY_GENERATION_FINETUNED = "rag_fancy_generation_finetuned"
+
 
 
     # Add more models here
@@ -51,6 +54,8 @@ class Models(Enum):
             return Llama3ChatModelRAGfancy
         elif model==Models.RAG_FANCY_LLAMA_3_CHAT_FINETUNED:
             return Llama3ChatModelRAGFancyFinetuned
+        elif model==Models.RAG_FANCY_GENERATION_FINETUNED:
+            return GenerationModelRAGfancyFinetuned
     
         else:
             raise ValueError(f"Model `{model_name}` not found.")
