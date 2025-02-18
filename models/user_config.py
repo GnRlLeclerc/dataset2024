@@ -10,6 +10,8 @@ from models._rag_fancy_fill_mask_model import FillMaskModelRAGfancy
 from models._rag_fancy_generation_model import GenerationModelRAGfancy
 from models._rag_fancy_llama_3_chat_model import Llama3ChatModelRAGfancy
 
+from models.finetune_rag_fancy_llama_3_chat_model import Llama3ChatModelRAGFancyFinetuned
+
 
 class Models(Enum):
     BASELINE_FILL_MASK = "baseline_fill_mask"
@@ -21,6 +23,7 @@ class Models(Enum):
     RAG_FANCY_FILL_MASK = "rag_fancy_fill_mask"
     RAG_FANCY_GENERATION = "rag_fancy_generation"
     RAG_FANCY_LLAMA_3_CHAT = "rag_fancy_llama_3_chat"
+    RAG_FANCY_LLAMA_3_CHAT_FINETUNED = "rag_fancy_llama_3_chat_finetuned"
 
 
     # Add more models here
@@ -46,6 +49,8 @@ class Models(Enum):
             return GenerationModelRAGfancy
         elif model==Models.RAG_FANCY_LLAMA_3_CHAT:
             return Llama3ChatModelRAGfancy
+        elif model==Models.RAG_FANCY_LLAMA_3_CHAT_FINETUNED:
+            return Llama3ChatModelRAGFancyFinetuned
     
         else:
             raise ValueError(f"Model `{model_name}` not found.")
